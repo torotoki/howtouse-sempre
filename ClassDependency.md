@@ -1,4 +1,4 @@
-The result of the running command `jdeps -v -package edu.stanford.nlp.sempre *.class` at the directory contains class files:
+This is the result of the running command `jdeps -v -package edu.stanford.nlp.sempre *.class` at the directory contains class files. We strongly recommend you to use `grep` to find something.
 
 ```jdeps
 AbstractReinforcementParserState.class -> ChartParserState$CatSpan.class
