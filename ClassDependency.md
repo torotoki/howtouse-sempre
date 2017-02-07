@@ -1,4 +1,6 @@
-The result of the running command `jdeps -v -package edu.stanford.nlp.sempre *.class` at the directory contains class files:
+The result of the running command `jdeps -v -package edu.stanford.nlp.sempre *.class` at the directory contains class files.
+
+**Note that the dependency does not include annotation like** `@Option public String executor = "JavaExecutor";`
 
 ```jdeps
 AbstractReinforcementParserState.class -> ChartParserState$CatSpan.class

@@ -65,7 +65,7 @@ Then, we should also specify this group to be included (or excluded) on `testng.
 <groups>
   <run>
     <!-- <exclude name="grammar" /> -->`
-  <include name="failingTest" />
+  <include name="nulltest" />
   </run>
 </groups>
 ```
