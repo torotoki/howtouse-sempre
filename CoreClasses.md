@@ -1,4 +1,4 @@
-This is the list of core classess extracted from `module-classes.txt` in SEMPRE.
+This is the list of core classess extracted from `module-classes.txt` in SEMPRE. There are 135 classes.
 
 ```
 core edu.stanford.nlp.sempre.AbstractReinforcementParserState
