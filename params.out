@@ -1,0 +1,9 @@
+rule :: $Operator -> and (ConstantFn (lambda y (lambda x (call + (var x) (var y)))))	1.3827524196209355
+rule :: $Partial -> $Operator $Expr (JoinFn forward)	1.1961161351381842
+rule :: $Intermediate3 -> $Intermediate2 (SelectFn 0)	1.1961161351381842
+rule :: $Intermediate2 -> $Expr (SelectFn 0)	1.1961161351381842
+rule :: $ROOT -> $Intermediate3 (IdentityFn)	1.1961161351381842
+rule :: $Expr -> $Expr $Partial (JoinFn backward)	1.1961161351381842
+rule :: $Expr -> $PHRASE (NumberFn)	1.1961161351381842
+rule :: fire	1.1135465911607318
+rule :: $Operator -> and (ConstantFn (lambda y (lambda x (call * (var x) (var y)))))	-1.3827524196209353
