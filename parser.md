@@ -1,6 +1,5 @@
-This is the result of the command `./run @mode=simple -Parser.verbose 5 -Parser.visualizeChartFilling true -Grammar.inPaths data/tutorial-arithmetic.grammar -FeatureExtractor.featureDomains rule -Dataset.inPaths train:data/tutorial-arithmetic.examples -Learner.maxTrainIters 3`
-
-```json
+This is the result of the command `./run @mode=simple -Parser.verbose 5 -Parser.visualizeChartFilling true -Grammar.inPaths data/tutorial-arithmetic.grammar -FeatureExtractor.featureDomains rule -Dataset.inPaths train:data/tutorial-arithmetic.examples -Learner.maxTrainIters 3`.
+```
 main() {
   Grammar.read {
     15 rules
